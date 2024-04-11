@@ -1,0 +1,63 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --black: rgba(48, 48, 48, 1);
+    --orange: rgba(255, 108, 0, 1);
+    --light-black: rgba(157, 164, 189, 1);
+}
+
+body {
+font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
+
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    
+}
+.header {
+    background-color: var(--light-black);
+}
+.header__navigation a{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.34px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        text-decoration: none;
+        color: var: rgba(255, 255, 255, 1);
+        
+}
+.address a {
+    text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.34px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--white);
+}
+.about1 :hover {
+    color: var(--orange);
+}
+.btn-book {
+    font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        background-color: transparent;
+        color: var(--white);
+        text-transform: uppercase;
+        padding: 12px 24px;
+        border: 1px solid var(--orange);
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+.btn-book:hover {
+        color: var(--white);
+        background-color: var(orange);
+    }
+.btn-book:focus {
+            color: var(--white);
+            background-color: var(--orange);
+        }

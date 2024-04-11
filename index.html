@@ -1,114 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">    
+<title>Document</title>
+  </head>
+  <body>
     <!--fotter section-->
-    <header>
-        <div>
-            <a href="#"><img src="images/Logo.jpg" alt="Logo"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services and Prices</a></li>
-                <li><a href="#">Barbers</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-                <address><a href="+380441111111">tel:+380441111111</a></address>
-                <button>book a Service</button> 
-        </nav>
-    </footer>
+    <header class="header">
+      <div class="logo">
+        <a href="#"><img src="images/Logo.jpg" alt="Logo" /></a>
+      </div>
+      <nav class="header__navigation">
+        <ul>
+          <li class="about1"><a href="#">About</a></li>
+          <li><a href="#">Services and Prices</a></li>
+          <li><a href="#">Barbers</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <address class="address"><a href="tel:+380441111111">tel:+380441111111</a></address>
+        <button class="btn-book" type="button">book a Service </button>
+      </nav>
     </header>
-    <footer>
 
     <!--presentation section-->
-    <main>
-      <section>
-        <h5>A hair salon for men in Kyiv</h5>
+    <main class="main">
+      <section class="description">
+        <h6>A hair salon for men in Kyiv</h6>
         <h2>BarberShop</h2>
-        <p>We are experts in trendy men's haircuts. <br>We work quickly, carefully, and tastefully.</p>
-     </section>
+        <p>
+          We are experts in trendy men's haircuts. <br />We work quickly,
+          carefully, and tastefully.
+        </p>
+      </section>
     </main>
-    
 
     <!--about section-->
-    <section>
-        <div>
-            <img src="images/img-1.jpg" alt="img-1" width="150">
-            <img src="images/img-2.jpg" alt="img-2" width="150">
-    </div>
-    <div>
+    <section class="about">
+      <div class="about__photo">
+        <img src="images/img-1.jpg" alt="img-1" width="150" />
+        <img src="images/img-2.jpg" alt="img-2" width="150" />
+      </div>
+      <div class="about__text">
         <h5>About</h5>
         <h2>The Best Barbershop in Your City</h2>
-        <p>If you want to add more confidence to your image, <br>you are definitely in the right place.</p>
-        <p>We are a team that never rests on its laurels and yearns for change. <br>And once you fall into the hands of our master,
-        you will never be the same <br>again. We are a team that is always on the same wavelength with clients. <br>Therefore, we are
-        always ready to improve everyone who comes to us!</p>
-        <button>book a service</button>
-    </div>
+        <p>
+          If you want to add more confidence to your image, <br />you are
+          definitely in the right place.
+        </p>
+        <p>
+          We are a team that never rests on its laurels and yearns for change.
+          <br />And once you fall into the hands of our master, you will never
+          be the same <br />again. We are a team that is always on the same
+          wavelength with clients. <br />Therefore, we are always ready to
+          improve everyone who comes to us!
+        </p>
+        <button class="about__button">book a service</button>
+      </div>
     </section>
 
     <!--services and praises section-->
-    <section>
-        <h5>Spend time in the company of the best craftsmen</h5>
-        <h2>Services and Prices</h2>
-        <ul>
-            <li>
-                <p>Men's Haircut <span>from 300 UAH </span></p>  
-            </li>
-            <li>
-                <p>Beard Trim <span>from 200 UAH</span></p>
-            </li>
-            <li>
-                <p>Mustache Trim <span>from 200 UAH</span></p>
-            </li>
-            <li>
-                <p>Straight Razor Shave <span>from 200 UAH</span></p>
-            </li>
-        </ul>
-        <ul> 
-            <li>
-                <p>Trainee Haircut <span>from 50 UAH </span></p>
-            </li>
-            <li>
-                <p>Buzz Cut<span>from 200 UAH </span></p>
-            </li>
-            <li>
-                <p>Kids Haircut (12 y.o.)<span>from 300 UAH </span></p>
-            </li>
-            <li>
-                <p>Gray Coverage<span>from 200 UAH </span></p>
-            </li>
-        </ul>
-        <button>book a Service</button>
+    <section class="service">
+      <h5>Spend time in the company of the best craftsmen</h5>
+      <h2>Services and Prices</h2>
+      <ul class="praices1">
+        <li>
+          <p>Men's Haircut <span>from 300 UAH </span></p>
+        </li>
+        <li>
+          <p>Beard Trim <span>from 200 UAH</span></p>
+        </li>
+        <li>
+          <p>Mustache Trim <span>from 200 UAH</span></p>
+        </li>
+        <li>
+          <p>Straight Razor Shave <span>from 200 UAH</span></p>
+        </li>
+      </ul>
+      <ul class="prices2">
+        <li>
+          <p>Trainee Haircut <span>from 50 UAH </span></p>
+        </li>
+        <li>
+          <p>Buzz Cut<span>from 200 UAH </span></p>
+        </li>
+        <li>
+          <p>Kids Haircut (12 y.o.)<span>from 300 UAH </span></p>
+        </li>
+        <li>
+          <p>Gray Coverage<span>from 200 UAH </span></p>
+        </li>
+      </ul>
+      <button class="btn-service">book a Service</button>
     </section>
 
     <!--review section-->
-    <section>
-        <ul>
-            <li><p><strong>600</strong><sup>+</sup> <br>Satisfied Customers <br>per Day</p></li>
-            <li><p><strong>20</strong><sup>+</sup> <br>Excellent Service <br>Awards</p></li>  
-            <li><p><strong>50<sup>+</sup></strong> <br>The Best Barbers <br>of Kyiv</p></li>
-            <li><p><strong>100<sup>+</sup></strong> <br>Gifts for Regular <br>Customers</p></li>   
-        </ul>
-        <div>
-            <h5>Old school</h5>
-            <p><strong>Why do they come<br>to us?</strong></p>
-            <p>Only good things are said about us. But it is better <br>to see and feel 1 time than to read 10 times. </p>
-        </div>
+    <section class="--review">
+      <ul>
+        <li class="day">
+          <p>
+            <strong>600</strong><sup>+</sup> <br />Satisfied Customers <br />per
+            Day
+          </p>
+        </li>
+        <li class="awards">
+          <p>
+            <strong>20</strong><sup>+</sup> <br />Excellent Service <br />Awards
+          </p>
+        </li>
+        <li class="kyiev">
+          <p>
+            <strong>50<sup>+</sup></strong> <br />The Best Barbers <br />of Kyiv
+          </p>
+        </li>
+        <li class="costumers">
+          <p>
+            <strong>100<sup>+</sup></strong> <br />Gifts for Regular
+            <br />Customers
+          </p>
+        </li>
+      </ul>
+      <div class=" old">
+        <h5>Old school</h5>
+        <p>
+          <strong>Why do they come<br />to us?</strong>
+        </p>
+        <p>
+          Only good things are said about us. But it is better <br />to see and
+          feel 1 time than to read 10 times.
+        </p>
+      </div>
     </section>
-    
+
     <!--worck section-->
-    <section>
-        <h5>for true connoisseurs of the atmosphere</h5>
-        <h2>Our Barbers </h2>
-        
+    <section class="work-text">
+      <h5>for true connoisseurs of the atmosphere</h5>
+      <h2>Our Barbers</h2>
     </section>
 
+    <!--work photo-->
+    <section>
+      <p>for true connoisseurs of the atmosphere</p>
+      <h2>Our Barbers</h2>
 
-</body>
+      <ul>
+        <li>
+          <img src="images/John-Smith.jpg" alt="John Smith" width="90px" />
+          <p>John Smith</p>
+          <h6>Extreme Barber</h6>
+        </li>
+        <li>
+          <img src="images/Michele-Doe.jpg" alt="Michael Doe" width="90px" />
+          <p>Michele Doe</p>
+          <h6>Extreme Barber</h6>
+        </li>
+        <li>
+          <img src="images/Alan-Black.jpg" alt="Alan Black" width="90px" />
+          <p>Alan Black</p>
+          <h6>Extreme Barber</h6>
+        </li>
+      </ul>
+    </section>
+
+    <!--photo section the barbers man's-->
+    <section>
+      <img src="images/cut the hair.jpg" alt="cut the hair" width="100px" />
+      <img src="images/the shaves.jpg" alt="the shaves" width="100px" />
+      <img src="images/face styling.jpg" alt="face styling" width="100px" />
+      <img src="images/hair contour.jpg" alt="hair contour" width="100px" />
+    </section>
+
+    <!--footer section-->
+    <footer>
+      <div>
+        <h3>Book a Service</h3>
+        <p>Name*</p>
+        <p>Telephone*</p>
+        <p>Message</p>
+        <button>send</button>
+      </div>
+
+      <div>
+        <h3>Contacts</h3>
+        <address>
+          <a href="Main Street, 7AKyiv, 08132"></a>Main Street, 7A Kyiv, 08132
+        </address>
+        <address><a href="tel:+38 044 111 11 11"></a>+38 044 111 11 11</address>
+        <address>
+          <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+        </address>
+      </div>
+      <div>
+        <h6>working hours</h6>
+        <p>Daily from 9:00 AM till 22:00 PM</p>
+      </div>
+    </footer>
+  </body>
 </html>
